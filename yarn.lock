@@ -2124,7 +2124,7 @@
     minimist "^1.2.0"
 
 "@design-systems/build@link:plugins/build":
-  version "2.7.1"
+  version "2.7.4"
   dependencies:
     "@babel/code-frame" "^7.10.4"
     "@babel/core" "^7.11.5"
@@ -2165,7 +2165,7 @@
     typescript "4.0.2"
 
 "@design-systems/bundle@link:plugins/bundle":
-  version "2.7.1"
+  version "2.7.4"
   dependencies:
     "@design-systems/build" "link:plugins/build"
     "@design-systems/cli-utils" "link:packages/cli-utils"
@@ -2183,7 +2183,7 @@
     webpack "4.44.1"
 
 "@design-systems/clean@link:plugins/clean":
-  version "2.7.1"
+  version "2.7.4"
   dependencies:
     "@design-systems/cli-utils" "link:packages/cli-utils"
     "@design-systems/plugin" "link:packages/plugin"
@@ -2192,7 +2192,7 @@
     tslib "2.0.1"
 
 "@design-systems/cli-utils@link:packages/cli-utils":
-  version "2.7.1"
+  version "2.7.4"
   dependencies:
     find-up "5.0.0"
     npm-which "3.0.1"
@@ -2202,7 +2202,7 @@
     webpack "4.44.1"
 
 "@design-systems/cli@link:packages/cli":
-  version "2.7.1"
+  version "2.7.4"
   dependencies:
     "@design-systems/cli-utils" "link:packages/cli-utils"
     "@design-systems/core" "link:packages/core"
@@ -2217,7 +2217,7 @@
     update-check "1.5.4"
 
 "@design-systems/core@link:packages/core":
-  version "2.7.1"
+  version "2.7.4"
   dependencies:
     "@design-systems/build" "link:plugins/build"
     "@design-systems/bundle" "link:plugins/bundle"
@@ -2237,7 +2237,7 @@
     tslib "2.0.1"
 
 "@design-systems/create-command@link:plugins/create-command":
-  version "2.7.1"
+  version "2.7.4"
   dependencies:
     "@design-systems/cli-utils" "link:packages/cli-utils"
     "@design-systems/create" "link:packages/create"
@@ -2256,10 +2256,10 @@
     tslib "2.0.1"
 
 "@design-systems/create@link:packages/create":
-  version "2.7.1"
+  version "2.7.4"
 
 "@design-systems/dev@link:plugins/dev":
-  version "2.7.1"
+  version "2.7.4"
   dependencies:
     "@design-systems/cli-utils" "link:packages/cli-utils"
     "@design-systems/plugin" "link:packages/plugin"
@@ -2270,7 +2270,7 @@
     tslib "2.0.1"
 
 "@design-systems/eslint-config@link:packages/eslint-config":
-  version "2.7.1"
+  version "2.7.4"
   dependencies:
     "@design-systems/cli-utils" "link:packages/cli-utils"
     "@typescript-eslint/eslint-plugin" "3.9.0"
@@ -2294,7 +2294,7 @@
     tslib "2.0.1"
 
 "@design-systems/lint@link:plugins/lint":
-  version "2.7.1"
+  version "2.7.4"
   dependencies:
     "@design-systems/cli-utils" "link:packages/cli-utils"
     "@design-systems/eslint-config" "link:packages/eslint-config"
@@ -2311,7 +2311,7 @@
     tslib "2.0.1"
 
 "@design-systems/load-config@link:packages/load-config":
-  version "2.7.1"
+  version "2.7.4"
   dependencies:
     "@design-systems/core" "link:packages/core"
     "@design-systems/plugin" "link:packages/plugin"
@@ -2325,7 +2325,7 @@
     tslib "2.0.1"
 
 "@design-systems/playroom@link:plugins/playroom":
-  version "2.7.1"
+  version "2.7.4"
   dependencies:
     "@babel/core" "^7.11.5"
     "@babel/register" "^7.11.5"
@@ -2345,14 +2345,14 @@
     webpack "4.44.1"
 
 "@design-systems/plugin@link:packages/plugin":
-  version "2.7.1"
+  version "2.7.4"
   dependencies:
     command-line-application "0.10.1"
     tslib "2.0.1"
     utility-types "3.10.0"
 
 "@design-systems/proof@link:plugins/proof":
-  version "2.7.1"
+  version "2.7.4"
   dependencies:
     "@babel/core" "^7.11.5"
     "@babel/plugin-transform-runtime" "^7.11.5"
@@ -2370,7 +2370,7 @@
     tslib "2.0.1"
 
 "@design-systems/size@link:plugins/size":
-  version "2.7.1"
+  version "2.7.4"
   dependencies:
     "@design-systems/cli-utils" "link:packages/cli-utils"
     "@design-systems/plugin" "link:packages/plugin"
@@ -2398,10 +2398,10 @@
     webpack "4.44.1"
     webpack-bundle-analyzer "3.8.0"
     webpack-inject-plugin "1.5.4"
-    webpack-sources "1.4.3"
+    webpack-sources "2.2.0"
 
 "@design-systems/storybook@link:plugins/storybook":
-  version "2.7.1"
+  version "2.7.4"
   dependencies:
     "@alisowski/storybook-addon-notes" "^6.0.1"
     "@babel/core" "^7.11.5"
@@ -2434,7 +2434,7 @@
     webpack-filter-warnings-plugin "1.2.1"
 
 "@design-systems/stylelint-config@link:packages/stylelint-config":
-  version "2.7.1"
+  version "2.7.4"
   dependencies:
     stylelint-a11y "1.2.3"
     stylelint-config-css-modules "2.2.0"
@@ -2448,7 +2448,7 @@
     tslib "2.0.1"
 
 "@design-systems/test@link:plugins/test":
-  version "2.7.1"
+  version "2.7.4"
   dependencies:
     "@babel/core" "^7.11.5"
     "@design-systems/build" "link:plugins/build"
@@ -2468,7 +2468,7 @@
     tslib "2.0.1"
 
 "@design-systems/update@link:plugins/update":
-  version "2.7.1"
+  version "2.7.4"
   dependencies:
     "@design-systems/cli-utils" "link:packages/cli-utils"
     "@design-systems/plugin" "link:packages/plugin"
@@ -5434,10 +5434,10 @@
     "@types/source-list-map" "*"
     source-map "^0.6.1"
 
-"@types/webpack-sources@1.4.2":
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/@types/webpack-sources/-/webpack-sources-1.4.2.tgz#5d3d4dea04008a779a90135ff96fb5c0c9e6292c"
-  integrity sha512-77T++JyKow4BQB/m9O96n9d/UUHWLQHlcqXb9Vsf4F1+wKNrrlWNFPDLKNT92RJnCSL6CieTc+NDXtCVZswdTw==
+"@types/webpack-sources@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@types/webpack-sources/-/webpack-sources-2.0.0.tgz#08216ab9be2be2e1499beaebc4d469cec81e82a7"
+  integrity sha512-a5kPx98CNFRKQ+wqawroFunvFqv7GHm/3KOI52NY9xWADgc8smu4R6prt4EU/M4QfVjvgBkMqU4fBhw3QfMVkg==
   dependencies:
     "@types/node" "*"
     "@types/source-list-map" "*"
@@ -19960,7 +19960,7 @@ sort-keys@^2.0.0:
   dependencies:
     is-plain-obj "^1.0.0"
 
-source-list-map@^2.0.0:
+source-list-map@^2.0.0, source-list-map@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/source-list-map/-/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
   integrity sha512-qnQ7gVMxGNxsiL4lEuJwe/To8UnK7fAnmbGEEH8RpLouuKbeEm0lhbQVFIrNSuB+G7tVrAlVsZgETT5nljf+Iw==
@@ -22382,7 +22382,15 @@ webpack-merge@^4.2.2:
   dependencies:
     lodash "^4.17.15"
 
-webpack-sources@1.4.3, webpack-sources@^1.1.0, webpack-sources@^1.4.0, webpack-sources@^1.4.1, webpack-sources@^1.4.3:
+webpack-sources@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-2.2.0.tgz#058926f39e3d443193b6c31547229806ffd02bac"
+  integrity sha512-bQsA24JLwcnWGArOKUxYKhX3Mz/nK1Xf6hxullKERyktjNMC4x8koOeaDNTA2fEJ09BdWLbM/iTW0ithREUP0w==
+  dependencies:
+    source-list-map "^2.0.1"
+    source-map "^0.6.1"
+
+webpack-sources@^1.1.0, webpack-sources@^1.4.0, webpack-sources@^1.4.1, webpack-sources@^1.4.3:
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-1.4.3.tgz#eedd8ec0b928fbf1cbfe994e22d2d890f330a933"
   integrity sha512-lgTS3Xhv1lCOKo7SA5TjKXMjpSM4sBjNV5+q2bqesbSPs5FjGmU6jjtBSkX9b4qW87vDIsCIlUPOEhbZrMdjeQ==
